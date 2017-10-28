@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ArrayListPhoneContainer()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ ArrayListPhoneNumberContainer\n
+comment1.params=phoneNumber
+comment1.target=boolean\ add(long)
+comment1.text=\n\ A\ method\ to\ add\ a\ phoneNumber\ to\ a\ sorted\ list\n\ @param\ \ \ \ Long\ phoneNumber\n\ @return\ boolean\ true\ if\ successful\n
+comment2.params=k
+comment2.target=long\ select(int)
+comment2.text=\n\ Find\ the\ kth\ smallest\ item\ in\ the\ list\n\ @param\ k\ the\ desired\ rank\ (1\ is\ the\ smallest\ item).\n\ @return\ the\ kth\ smallest\ item\ in\ the\ list\n\ @throws\ IllegalArgumentException\ if\ k\ is\ less\n\ \ \ \ \ than\ 1\ or\ more\ than\ the\ size\ of\ the\ list\n
+numComments=3

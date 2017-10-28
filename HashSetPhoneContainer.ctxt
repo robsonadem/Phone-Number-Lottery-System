@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=HashSetPhoneContainer()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ HashListPhoneNumberContainer\n
+comment1.params=phoneNumber
+comment1.target=boolean\ add(long)
+comment1.text=\n\ A\ method\ to\ add\ a\ phoneNumber\ to\ a\ sorted\ list\n\ @param\ \ \ \ Long\ phoneNumber\n\ @return\ boolean\ true\ if\ successful\n
+comment2.params=k
+comment2.target=long\ select(int)
+comment2.text=\n\ Find\ the\ kth\ smallest\ item\ in\ the\ set\n\ @param\ k\ the\ desired\ rank\ (1\ is\ the\ smallest\ item).\n\ @return\ the\ kth\ smallest\ item\ in\ the\ set\n\ @throws\ IllegalArgumentException\ if\ k\ is\ less\n\ \ \ \ \ than\ 1\ or\ more\ than\ the\ size\ of\ the\ set\n
+comment3.params=a\ k
+comment3.target=void\ quickSelect(java.lang.Long[],\ int)
+comment3.text=\n\ Quick\ selection\ algorithm.\n\ Places\ the\ kth\ smallest\ item\ in\ a[k-1].\n\ @param\ a\ an\ array\ of\ Long\ items.\n\ @param\ k\ the\ desired\ rank\ (1\ is\ minimum)\ in\ the\ entire\ array.\n
+comment4.params=a\ low\ high\ k
+comment4.target=void\ quickSelect(java.lang.Long[],\ int,\ int,\ int)
+comment4.text=\n\ Internal\ selection\ method\ that\ makes\ recursive\ calls.\n\ Uses\ median-of-three\ partitioning\ and\ a\ cutoff\ of\ 10.\n\ Places\ the\ kth\ smallest\ item\ in\ a[k-1].\n\ @param\ a\ an\ array\ of\ Long\ items.\n\ @param\ low\ the\ left-most\ index\ of\ the\ subarray.\n\ @param\ high\ the\ right-most\ index\ of\ the\ subarray.\n\ @param\ k\ the\ desired\ rank\ (1\ is\ minimum)\ in\ the\ entire\ array.\n
+comment5.params=a\ low\ high
+comment5.target=void\ insertionSort(java.lang.Long[],\ int,\ int)
+comment5.text=\n\ Internal\ insertion\ sort\ routine\ for\ subarrays\n\ that\ is\ used\ by\ quicksort.\n\ @param\ a\ an\ array\ of\ Long\ items.\n\ @param\ low\ the\ left-most\ index\ of\ the\ subarray.\n\ @param\ n\ the\ number\ of\ items\ to\ sort.\n
+comment6.params=a\ index1\ index2
+comment6.target=void\ swapReferences(java.lang.Object[],\ int,\ int)
+comment6.text=\n\ Method\ to\ swap\ to\ elements\ in\ an\ array.\n\ @param\ a\ an\ array\ of\ objects.\n\ @param\ index1\ the\ index\ of\ the\ first\ object.\n\ @param\ index2\ the\ index\ of\ the\ second\ object.\n
+numComments=7

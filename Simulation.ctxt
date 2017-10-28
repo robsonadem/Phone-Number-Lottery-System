@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=operations\ selectPercentage
+comment0.target=Simulation(int,\ double)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Simulation\n
+comment1.params=p
+comment1.target=void\ run(PhoneContainer)
+comment1.text=\n\ A\ method\ to\ run\ the\ simulation\ \n\ @param\ \ \ PhoneContainer\ P\n
+comment2.params=
+comment2.target=long\ getAddTime()
+comment2.text=\n\ A\ method\ to\ return\ the\ execution\ time\ to\ add\ to\ a\ list\n\ @return\ \ long\ addTime\ \n
+comment3.params=
+comment3.target=long\ getSelectTime()
+comment3.text=\n\ A\ method\ to\ return\ the\ execution\ time\ to\ select\ to\ a\ list\n\ @return\ \ long\ selectTime\ \n
+numComments=4
